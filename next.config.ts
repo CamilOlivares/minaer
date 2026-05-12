@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   /* ─── Opciones de configuración ───────────────────────────── */
   output: 'export',
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   // Por ahora la configuración base es suficiente.
   // Ejemplos de opciones comunes:
   //
