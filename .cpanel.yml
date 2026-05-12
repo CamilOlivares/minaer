@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gygconsu/public_html/
-    - /bin/cp -R out/. $DEPLOYPATH
+    - /bin/cp -rv /home/gygconsu/repositories/minaer/out/* /home/gygconsu/public_html/ > /home/gygconsu/public_html/deploy_log.txt 2>&1
