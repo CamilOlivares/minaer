@@ -12,6 +12,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* ─── Opciones de configuración ───────────────────────────── */
+  output: 'export',
+  trailingSlash: true,
   // Por ahora la configuración base es suficiente.
   // Ejemplos de opciones comunes:
   //
