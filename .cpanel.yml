@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp -rv /home/gygconsu/repositories/minaer/out/* /home/gygconsu/public_html/ > /home/gygconsu/public_html/deploy_log.txt 2>&1
